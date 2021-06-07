@@ -46,7 +46,7 @@ console.log(student);
 // makeTrouble = makeTrouble.toLowerCase();
 
 if(student === 'yes' || student === 'y') {
-  alert('Excellent ');
+  alert('awesome');
 } else if (student === 'no' || student === 'n') {
   alert('you should be');
 } else {
@@ -75,7 +75,7 @@ console.log(engineer);
 // makeTrouble = makeTrouble.toLowerCase();
 
 if(engineer === 'yes' || engineer === 'y') {
-  alert('Excellent');
+  alert('Great');
 } else if (engineer === 'no' || engineer === 'n') {
   alert('you should be');
 } else {
@@ -90,7 +90,9 @@ console.log(developer);
 
 if(developer === 'yes' || developer === 'y') {
   alert('Excellent');
+ 
 } else if (developer === 'no' || developer === 'n') {
+   //console.log('you should be');
   alert('you should be');
 } else {
   alert('Pease type (yes) or (no) or (y) or (n)');
@@ -103,9 +105,12 @@ console.log(weather);
 // makeTrouble = makeTrouble.toLowerCase();
 
 if(weather === 'yes' || weather === 'y') {
-  alert('Excellent');
+  alert('Perfect');
 } else if (weather === 'no' || weather === 'n') {
   alert('you should be');
 } else {
   alert('Pease type (yes) or (no) or (y) or (n)');
 }
+
+alert(`Thank you ${userName}, for visiting the website`);
+console.log(`Thank you ${userName}, for visiting the website`);
